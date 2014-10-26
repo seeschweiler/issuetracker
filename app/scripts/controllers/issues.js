@@ -8,7 +8,11 @@
  * Controller of the issuetrackerApp
  */
 angular.module('issuetrackerApp')
-  .controller('IssuesCtrl', function ($scope, Issue) {
+  .controller('IssuesCtrl', function ($scope, $location, Issue, Auth) {
+      if (!Auth.signedIn()) {
+        $location.path('/home');
+      }
+
       $scope.issues = Issue.all;
       $scope.issue = {};
 

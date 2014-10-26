@@ -15,7 +15,7 @@ angular.module('issuetrackerApp')
     $scope.submitIssue = function () {
       $scope.issue.$save().then(function(){
         $location.path('/issues');
-      })
+      });
     };
 
     $scope.cancel = function() {
