@@ -8,8 +8,8 @@
  * Controller of the issuetrackerApp
  */
 angular.module('issuetrackerApp')
-  .controller('IssuesCtrl', function ($scope, $location, Issue, Auth) {
-      if (!Auth.signedIn()) {
+  .controller('IssuesCtrl', function ($scope, $location, Issue, AuthFirebase) {
+      if (!AuthFirebase.signedIn()) {
         $location.path('/home');
       }
 

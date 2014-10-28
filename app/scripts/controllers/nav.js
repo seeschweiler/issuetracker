@@ -8,7 +8,7 @@
  * Controller of the issuetrackerApp
  */
 angular.module('issuetrackerApp')
-  .controller('NavCtrl', function ($scope, $location, Auth) {
+  .controller('NavCtrl', function ($scope, $location, AuthFirebase) {
     $scope.getClass = function(path) {
         if ($location.path().substr(0, path.length) === path) {
           return 'active';
@@ -18,6 +18,6 @@ angular.module('issuetrackerApp')
     };
 
     $scope.logout = function() {
-      Auth.logout();
+      AuthFirebase.logout();
     };
   });

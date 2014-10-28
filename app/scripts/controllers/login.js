@@ -8,9 +8,9 @@
  * Controller of the issuetrackerApp
  */
 angular.module('issuetrackerApp')
-  .controller('LoginCtrl', function ($scope, $location, Auth) {
+  .controller('LoginCtrl', function ($scope, $location, AuthFirebase) {
     $scope.login = function() {
-      Auth.login($scope.user).then(function() {
+      AuthFirebase.login($scope.user).then(function() {
         $location.path('/issues');
       }, function(error){
         $scope.error = error.toString();
