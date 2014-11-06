@@ -12,8 +12,6 @@ The project applies the following technologies:
 
 to build a simple bug tracker with real-time behaviour.
 
-![alt tag](https://raw.github.com/seeschweiler/issuetracker/master/images/welcome_page.png)
-
 ## Running the IssueTracker application
 
  Running the IssueTracker application on your local system is easy.
@@ -21,13 +19,29 @@ to build a simple bug tracker with real-time behaviour.
  ```
 git clone https://github.com/seeschweiler/issuetracker.git
  ```
- 2. Open scripts/app.js in your favorite editor, go to line 21 and replace [PLACE YOUR FIREBASE URL HERE] with your Firebase url
+ 2. Open scripts/app.js in your favorite editor, go to line 21 and replace [PLACE YOUR FIREBASE URL HERE] with your Firebase URL
  3. Update dependencies by using the following commands
  ```
- npm install
- bower install
+npm install
  ```
-4. Run project with
-```
+ ```
+bower install
+ ```
+ 4. Run project with
+ ```
 grunt serve
-```
+ ```
+
+ ## Screenshots
+
+ ### Welcome Page
+
+ ![alt tag](https://raw.github.com/seeschweiler/issuetracker/master/images/welcome_page.png)
+
+ ### Issue List Page
+
+ ![alt tag](https://raw.github.com/seeschweiler/issuetracker/master/images/issue_list_page.png)
+
+ ### Login Page
+
+ ![alt tag](https://raw.github.com/seeschweiler/issuetracker/master/images/login_page.png)
