@@ -20,10 +20,9 @@ to build a simple bug tracker with real-time behaviour.
         git clone https://github.com/seeschweiler/issuetracker.git
         ```
  2. Open scripts/app.js in your favorite editor, go to line 21 and replace [PLACE YOUR FIREBASE URL HERE] with your Firebase URL
- 3. Update dependencies by using the following commands
+ 3. Update dependencies by using the following command
         ```
-        npm install
-        bower install
+        npm install && bower install
         ```
  4. Run project with
         ```
