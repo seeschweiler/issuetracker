@@ -18,7 +18,7 @@ angular
     'ngTouch',
     'firebase'
   ])
-  .constant('FIREBASE_URL', 'https://seeschweiler-myfirebaseapp01.firebaseIO.com/')
+  .constant('FIREBASE_URL', '[PLACE YOUR FIREBASE URL HERE]')
   .config(function ($routeProvider) {
     $routeProvider
       .when('/home', {
