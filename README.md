@@ -10,8 +10,8 @@ The project applies the following technologies:
 
 to build a simple bug tracker with real-time behaviour.
 
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
+![alt tag](https://raw.github.com/seeschweiler/issuetracker/master/images/welcome_page.png)
 
 ## Running the IssueTracker application
 
-The run the IssueTracker application on your local machine 
+The run the IssueTracker application on your local machine
